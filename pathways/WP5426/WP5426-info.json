@@ -1,0 +1,10 @@
+{
+    "wpid": "WP0__PR20",
+    "organisms": ["Homo sapiens"],
+    "description": "Demo pathway: insulin (INS) activates its receptor INSR, which signals through IRS1.",
+    "ontology-ids": [],
+    "last-edited": "2026-08-03",
+    "title": "Insulin signaling (demo)",
+    "authors": ["marvinm2"],
+    "revision": "r20260803172004"
+}
