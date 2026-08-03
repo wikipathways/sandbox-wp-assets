@@ -1,0 +1,10 @@
+{
+    "wpid": "WP0__PR17",
+    "organisms": ["Homo sapiens"],
+    "description": "Insulin binds the insulin receptor INSR at the cell surface, which autophosphorylates and then recruits and phosphorylates the adaptor protein IRS1. Phosphorylated IRS1 acts as the docking platform that propagates the signal onward to downstream metabolic effectors. This demonstration pathway covers only that proximal receptor-to-adaptor segment.",
+    "ontology-ids": [],
+    "last-edited": "2026-08-03",
+    "title": "Insulin signaling (demo)",
+    "authors": ["marvinm2"],
+    "revision": "r20260803154519"
+}

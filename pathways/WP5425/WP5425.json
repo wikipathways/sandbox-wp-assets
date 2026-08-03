@@ -1,0 +1,316 @@
+{
+  "entitiesById": {
+    "b486f": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "b486f",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "IRS1",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Ensembl:ENSG00000169047",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000169047",
+        "IRS1",
+        "Ensembl:ENSG00000169047",
+        "Entrez Gene:3667",
+        "HGNC:IRS1",
+        "UniProt:P35568"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 90,
+      "wpType": "GeneProduct",
+      "x": 111,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000169047",
+      "y": 216.5,
+      "zIndex": 32768
+    },
+    "deb0a": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "deb0a",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "INSR",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Ensembl:ENSG00000171105",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000171105",
+        "INSR",
+        "Ensembl:ENSG00000171105",
+        "Entrez Gene:3643",
+        "HGNC:INSR",
+        "UniProt:M0R3E6",
+        "UniProt:P06213"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 90,
+      "wpType": "GeneProduct",
+      "x": 111,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000171105",
+      "y": 139.5,
+      "zIndex": 32769
+    },
+    "f1260": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "f1260",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "INS",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Ensembl:ENSG00000254647",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000254647",
+        "INS",
+        "Ensembl:ENSG00000254647",
+        "Entrez Gene:3630",
+        "HGNC:INS",
+        "UniProt:C9JNR5",
+        "UniProt:I3WAC9",
+        "UniProt:A6XGL2",
+        "UniProt:P01308"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 90,
+      "wpType": "GeneProduct",
+      "x": 111,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000254647",
+      "y": 69.5,
+      "zIndex": 32768
+    },
+    "publicationXrefref1": {
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefref1",
+      "textContent": "1",
+      "type": [
+        "PublicationXref",
+        "PubMed:16847462"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "16847462"
+    },
+    "pvjsgeneratedidf1261": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "pvjsgeneratedidf1261",
+      "isAttachedTo": [
+        "f1260",
+        "deb0a"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimBinding",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "f1260",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 156,
+          "y": 94.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "deb0a",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 156,
+          "y": 139.5
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "pvjsgeneratedidf1262": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "pvjsgeneratedidf1262",
+      "isAttachedTo": [
+        "deb0a",
+        "b486f"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "deb0a",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 156,
+          "y": 164.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "b486f",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 156,
+          "y": 216.5
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    }
+  },
+  "pathway": {
+    "@context": [
+      "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
+      {
+        "@base": "WP0__PR17/"
+      }
+    ],
+    "author": "[marvinm2]",
+    "comments": [
+      {
+        "content": "Insulin binds the insulin receptor INSR at the cell surface, which autophosphorylates and then recruits and phosphorylates the adaptor protein IRS1. Phosphorylated IRS1 acts as the docking platform that propagates the signal onward to downstream metabolic effectors. This demonstration pathway covers only that proximal receptor-to-adaptor segment.",
+        "source": "WikiPathways-description"
+      }
+    ],
+    "contains": [
+      "pvjsgeneratedidf1261",
+      "pvjsgeneratedidf1262",
+      "b486f",
+      "f1260",
+      "deb0a"
+    ],
+    "dataSourceVersion": "WP0001_r20260803154519",
+    "displayName": "demo",
+    "drawAs": "rect",
+    "fill": "white",
+    "fontSize": 12,
+    "fontWeight": "bold",
+    "gpmlElementName": "Pathway",
+    "height": 576.5,
+    "id": "WP0__PR17",
+    "kaavioType": "Group",
+    "name": "Insulin signaling (demo)",
+    "organism": "Homo sapiens",
+    "padding": 5,
+    "pathwayVersion": "PR17",
+    "standardName": "Insulin signaling",
+    "stroke": "black",
+    "strokeWidth": 0,
+    "textAlign": "left",
+    "textContent": "Name: Insulin signaling (demo)\nOrganism: Homo sapiens",
+    "type": [
+      "Pathway"
+    ],
+    "verticalAlign": "top",
+    "width": 511,
+    "x": 0,
+    "y": 0,
+    "zIndex": 0
+  }
+}

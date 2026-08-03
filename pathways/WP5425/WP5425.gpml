@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway Author="[marvinm2]" xmlns="http://pathvisio.org/GPML/2013a" Name="Insulin signaling (demo)" Version="WP0001_r20260803154519" Organism="Homo sapiens">
+  <Graphics BoardWidth="511.0" BoardHeight="576.5" />
+  <Comment Source="WikiPathways-description">Insulin binds the insulin receptor INSR at the cell surface, which autophosphorylates and then recruits and phosphorylates the adaptor protein IRS1. Phosphorylated IRS1 acts as the docking platform that propagates the signal onward to downstream metabolic effectors. This demonstration pathway covers only that proximal receptor-to-adaptor segment.</Comment>
+  <DataNode TextLabel="IRS1" GraphId="b486f" Type="GeneProduct">
+    <Graphics CenterX="156.0" CenterY="229.0" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000169047" />
+  </DataNode>
+  <DataNode TextLabel="INS" GraphId="f1260" Type="GeneProduct">
+    <Graphics CenterX="156.0" CenterY="82.0" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000254647" />
+  </DataNode>
+  <DataNode TextLabel="INSR" GraphId="deb0a" Type="GeneProduct">
+    <Graphics CenterX="156.0" CenterY="152.0" Width="90.0" Height="25.0" ZOrder="32769" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000171105" />
+  </DataNode>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="156.0" Y="94.5" GraphRef="f1260" RelX="0.0" RelY="1.0" />
+      <Point X="156.0" Y="139.5" GraphRef="deb0a" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="156.0" Y="164.5" GraphRef="deb0a" RelX="0.0" RelY="1.0" />
+      <Point X="156.0" Y="216.5" GraphRef="b486f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" rdf:id="ref1" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16847462</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+
