@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway Last-Modified="20260814093636" Version="WP5430_r20260814093636" xmlns="http://pathvisio.org/GPML/2013a" Name="Insulin signaling pipeline verification 2026-08-14" Data-Source="WikiPathways" Author="[mmarvinm2]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Insulin (INS) binds and activates the insulin receptor INSR, which in turn phosphorylates insulin receptor substrate 1 (IRS1) to propagate downstream metabolic and mitogenic signalling in human cells.</Comment>
+  <BiopaxRef>ref1</BiopaxRef>
+  <Graphics BoardWidth="480.0" BoardHeight="440.0" />
+
+  <DataNode TextLabel="INS" GraphId="b1a2c" Type="GeneProduct">
+    <Graphics CenterX="240.0" CenterY="80.0" Width="120.0" Height="34.0" Color="1a5276" />
+    <Xref Database="Ensembl" ID="ENSG00000254647" />
+  </DataNode>
+
+  <DataNode TextLabel="INSR" GraphId="c3d4e" Type="GeneProduct">
+    <Graphics CenterX="240.0" CenterY="200.0" Width="120.0" Height="34.0" Color="1a5276" />
+    <Xref Database="Ensembl" ID="ENSG00000171105" />
+  </DataNode>
+
+  <DataNode TextLabel="IRS1" GraphId="d5e6f" Type="GeneProduct">
+    <Graphics CenterX="240.0" CenterY="320.0" Width="120.0" Height="34.0" Color="1a5276" />
+    <Xref Database="Ensembl" ID="ENSG00000169047" />
+  </DataNode>
+
+  <Interaction GraphId="ia001">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="240.0" Y="97.0" GraphRef="b1a2c" RelX="0.0" RelY="1.0" />
+      <Point X="240.0" Y="183.0" GraphRef="c3d4e" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+    </Graphics>
+  </Interaction>
+
+  <Interaction GraphId="ia002">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="240.0" Y="217.0" GraphRef="c3d4e" RelX="0.0" RelY="1.0" />
+      <Point X="240.0" Y="303.0" GraphRef="d5e6f" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+    </Graphics>
+  </Interaction>
+
+  <OntologyTerm Term="insulin signaling pathway" ID="PW:0000143" Ontology="Pathway Ontology" />
+
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"
+                        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ref1">
+      <bp:ID>12829793</bp:ID>
+      <bp:DB>PubMed</bp:DB>
+      <bp:TITLE>IRS proteins and the common path to diabetes</bp:TITLE>
+      <bp:SOURCE>J Clin Invest</bp:SOURCE>
+      <bp:YEAR>2003</bp:YEAR>
+      <bp:AUTHORS>White MF</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

@@ -1,0 +1,315 @@
+{
+  "entitiesById": {
+    "b1a2c": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 34,
+      "id": "b1a2c",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#1a5276",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "INS",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Ensembl:ENSG00000254647",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000254647",
+        "INS",
+        "Ensembl:ENSG00000254647",
+        "Entrez Gene:3630",
+        "HGNC:INS",
+        "UniProt:C9JNR5",
+        "UniProt:I3WAC9",
+        "UniProt:A6XGL2",
+        "UniProt:P01308"
+      ],
+      "verticalAlign": "top",
+      "whiteSpace": "pre",
+      "width": 120,
+      "wpType": "GeneProduct",
+      "x": 180,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000254647",
+      "y": 63
+    },
+    "c3d4e": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 34,
+      "id": "c3d4e",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#1a5276",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "INSR",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Ensembl:ENSG00000171105",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000171105",
+        "INSR",
+        "Ensembl:ENSG00000171105",
+        "Entrez Gene:3643",
+        "HGNC:INSR",
+        "UniProt:M0R3E6",
+        "UniProt:P06213"
+      ],
+      "verticalAlign": "top",
+      "whiteSpace": "pre",
+      "width": 120,
+      "wpType": "GeneProduct",
+      "x": 180,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000171105",
+      "y": 183
+    },
+    "d5e6f": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 34,
+      "id": "d5e6f",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#1a5276",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "IRS1",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Ensembl:ENSG00000169047",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000169047",
+        "IRS1",
+        "Ensembl:ENSG00000169047",
+        "Entrez Gene:3667",
+        "HGNC:IRS1",
+        "UniProt:P35568"
+      ],
+      "verticalAlign": "top",
+      "whiteSpace": "pre",
+      "width": 120,
+      "wpType": "GeneProduct",
+      "x": 180,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000169047",
+      "y": 303
+    },
+    "ia001": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "ia001",
+      "isAttachedTo": [
+        "b1a2c",
+        "c3d4e"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimBinding",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "b1a2c",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 240,
+          "y": 97
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "c3d4e",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 240,
+          "y": 183
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "ia002": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "ia002",
+      "isAttachedTo": [
+        "c3d4e",
+        "d5e6f"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimConversion",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "c3d4e",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 240,
+          "y": 217
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "d5e6f",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 240,
+          "y": 303
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "publicationXrefref1": {
+      "authors": [
+        "White MF"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefref1",
+      "source": "J Clin Invest",
+      "standardName": "IRS proteins and the common path to diabetes",
+      "textContent": "1",
+      "type": [
+        "PublicationXref",
+        "PubMed:12829793"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "12829793",
+      "year": 2003
+    }
+  },
+  "pathway": {
+    "@context": [
+      "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
+      {
+        "@base": "WP5430/"
+      }
+    ],
+    "author": "[mmarvinm2]",
+    "comments": [
+      {
+        "content": "Insulin (INS) binds and activates the insulin receptor INSR, which in turn phosphorylates insulin receptor substrate 1 (IRS1) to propagate downstream metabolic and mitogenic signalling in human cells.",
+        "source": "WikiPathways-description"
+      }
+    ],
+    "contains": [
+      "ia001",
+      "ia002",
+      "b1a2c",
+      "c3d4e",
+      "d5e6f"
+    ],
+    "dataSourceVersion": "WP5430_r20260814093636",
+    "displayName": "Insulin signaling pipeline verification 2026-08-14",
+    "drawAs": "rect",
+    "fill": "white",
+    "fontSize": 12,
+    "fontWeight": "bold",
+    "gpmlElementName": "Pathway",
+    "height": 440,
+    "id": "WP5430",
+    "kaavioType": "Group",
+    "name": "Insulin signaling pipeline verification 2026-08-14",
+    "organism": "Homo sapiens",
+    "padding": 5,
+    "pathwayVersion": "PR42",
+    "standardName": "Insulin signaling pipeline verification 2026-08-14",
+    "stroke": "black",
+    "strokeWidth": 0,
+    "textAlign": "left",
+    "textContent": "Name: Insulin signaling pipeline verification 2026-08-14\nOrganism: Homo sapiens",
+    "type": [
+      "Pathway"
+    ],
+    "verticalAlign": "top",
+    "width": 480,
+    "x": 0,
+    "y": 0,
+    "zIndex": 0
+  }
+}
